@@ -2,6 +2,7 @@
   "name": "my-project",
   "private": true,
   "version": "0.1.0",
+  "main": "./server.js",
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
@@ -30,7 +31,8 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "85e4f278-842b-44fa-a095-1c8ca017cf0f"
+    "uuid": "85e4f278-842b-44fa-a095-1c8ca017cf0f",
+    "packageManager": "npm"
   },
   "engines": {
     "node": ">=10.0.0",
