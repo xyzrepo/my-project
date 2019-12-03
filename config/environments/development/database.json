@@ -5,7 +5,7 @@
       "connector": "strapi-hook-bookshelf",
       "settings": {
         "client": "sqlite",
-        "filename": "/mnt/available_storage/db/data.db"
+        "filename": "${process.env.DATABASE_STORAGE || '.db/data.db' }"
       },
       "options": {
         "useNullAsDefault": true
