@@ -8,9 +8,9 @@
     "enabled": false
   },
   "admin": {
-    "path": "/",
+    "path": "/admin",
     "build": {
-      "backend": "http://localhost:1337/api"
+      "backend": "http://localhost:1337"
     }
   }
 }
