@@ -8,9 +8,9 @@
     "enabled": false
   },
   "admin": {
+    "path": "/",
     "build": {
-      "host": "http://dbs.available.io",
-      "backend": "http://api.available.io"
+      "backend": "http://localhost:1337/api"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "host": "localhost",
+  "host": "http://dbs.available.io",
   "port": "${process.env.PORT || 1337}",
   "autoReload": {
     "enabled": false
@@ -8,8 +8,8 @@
     "enabled": false
   },
   "admin": {
+    "path": "/",
     "build": {
-      "host": "http://dbs.available.io",
       "backend": "http://api.available.io"
     }
   }
