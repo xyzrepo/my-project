@@ -8,6 +8,9 @@
     "enabled": false
   },
   "admin": {
-    "path": "/dashboard"
+    "build": {
+      "host": "http://dbs.available.io",
+      "backend": "http://api.available.io"
+    }
   }
 }
