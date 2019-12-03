@@ -8,7 +8,7 @@
     "enabled": false
   },
   "admin": {
-    "path": "/",
+    "path": "/admin",
     "build": {
       "backend": "http://api.available.io"
     }
