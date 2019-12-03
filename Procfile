@@ -1,3 +1,3 @@
-admin-web: cd admin && npm run develop
+build-admin: npm run build
 dev-web: npm run develop
 web: npm start

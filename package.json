@@ -5,8 +5,8 @@
   "main": "./server.js",
   "description": "A Strapi application",
   "scripts": {
-    "develop": "strapi develop --no-build",
-    "setup": "cd admin && npm run develop",
+    "develop": "strapi develop",
+    "build": "strapi build",
     "start": "node server.js",
     "strapi": "node_modules/strapi/bin/strapi.js",
     "lint": "node_modules/.bin/eslint api/**/*.js config/**/*.js plugins/**/*.js"

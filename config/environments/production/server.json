@@ -8,6 +8,13 @@
     "enabled": false
   },
   "admin": {
-    "path": "/dashboard"
+    "path": "/dashboard",
+    "build": {
+      "host": "/",
+      "backend": "http://api.available.io",
+      "plugins": {
+        "source": "host"
+      }
+    }
   }
 }

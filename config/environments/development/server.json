@@ -2,9 +2,19 @@
   "host": "localhost",
   "port": 1337,
   "autoReload": {
-    "enabled": true
+    "enabled": false
   },
   "cron": {
     "enabled": false
+  },
+  "admin": {
+    "path": "/dashboard",
+    "build": {
+      "host": "/",
+      "plugins": {
+        "source": "host"
+      },
+      "backend": "http://api.available.io"
+    }
   }
 }
