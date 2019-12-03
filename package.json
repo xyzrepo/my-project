@@ -9,7 +9,7 @@
     "setup": "cd admin && npm run develop",
     "start": "node server.js",
     "strapi": "node_modules/strapi/bin/strapi.js",
-    "lint": "node_modules/.bin/eslint api/**/*.js config/**/*.js plugins/**/*.js",
+    "lint": "node_modules/.bin/eslint api/**/*.js config/**/*.js plugins/**/*.js"
   },
   "devDependencies": {},
   "dependencies": {
