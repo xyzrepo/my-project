@@ -6,11 +6,5 @@
   },
   "cron": {
     "enabled": false
-  },
-  "admin": {
-    "path": "/admin",
-    "build": {
-      "backend": "http://api.available.io"
-    }
   }
 }
