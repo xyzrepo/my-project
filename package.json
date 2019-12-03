@@ -5,7 +5,7 @@
   "main": "./server.js",
   "description": "A Strapi application",
   "scripts": {
-    "develop": "strapi develop",
+    "develop": "NODE_ENV=development strapi develop --no-build",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "node_modules/strapi/bin/strapi.js"
