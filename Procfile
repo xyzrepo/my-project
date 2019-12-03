@@ -1,2 +1,3 @@
-admin-web: strapi build && strapi develop
+admin: strapi build
+dev: strapi develop
 web: strapi start

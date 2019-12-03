@@ -1,5 +1,5 @@
 {
-  "host": "localhost",
+  "host": "my-project.available.io",
   "port": "${process.env.PORT || 1337}",
   "production": true,
   "proxy": {
@@ -12,6 +12,6 @@
     "enabled": false
   },
   "admin": {
-    "autoOpen": false
+    "autoOpen": true
   }
 }
