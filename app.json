@@ -1,13 +1,11 @@
 {
   "name": "Strapi Sample",
   "description": "A Srapi app",
-  "repository": "https://github.com/strapi/strapi-heroku-app",
-  "logo": "https://raw.githubusercontent.com/strapi/strapi-heroku-app/master/public/avatar-strapi.jpg",
+  "repository": "https://github.com/xyzrepo/my-project",
+  "logo": "https://raw.githubusercontent.com/xyzrepo/my-project/master/public/avatar-strapi.jpg",
   "keywords": ["node", "strapi", "API"],
-  "addons": [
-    {
-      "plan": "mongolab:sandbox",
-      "as": "DATABASE"
-    }
-  ]
+  "addons": [{
+    "plan": "mongolab:sandbox",
+    "as": "DATABASE"
+  }]
 }
