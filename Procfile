@@ -1,3 +1,3 @@
-admin: strapi build
-dev: strapi develop
-web: strapi start
+admin-web: npm run build
+dev-web: npm run develop
+web: npm start
