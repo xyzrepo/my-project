@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "profiles",
+  "info": {
+    "name": "profile",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "user": {
+      "model": "user",
+      "plugin": "users-permissions"
+    }
+  }
+}
