@@ -1,5 +1,5 @@
 {
-  "host": "localhost",
+  "host": "http://dbs.available.io",
   "port": "${process.env.PORT || 1337}",
   "autoReload": {
     "enabled": false
